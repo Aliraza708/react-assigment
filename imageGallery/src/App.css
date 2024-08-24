@@ -1,0 +1,42 @@
+.popupContentStyle{
+    position: absolute;
+    z-index: 500;
+    top: 0;
+    left: 0;
+
+}
+.popupStyle{
+    margin-left: 100px;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.popupStyle img{
+    height: 350px;
+    width:700px;
+}
+.popupStyle p{
+    color: white;
+    background-color: black;
+    width: 550px;
+
+    
+}
+.textbtn{
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 87.4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.closeButtonStyle{
+    background-color: red;
+    color: white;
+    width: 100px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    /* font-size: 1.4rem; */
+    margin-right: 20px;
+}
