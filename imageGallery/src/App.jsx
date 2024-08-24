@@ -113,7 +113,6 @@ function po(data){
     ) 
 }
 function close(){
-const pop =document.getElementById("pop")
 pop.style.display = 'none'
 
 }
@@ -137,7 +136,7 @@ pop.style.display = 'none'
           ))}
           </div>
 
-          <div  id='pop' className="popupContentStyle" style={{display:"none"}}>
+          <div  id='pop' className="popupContentStyle">
          <div className='popupStyle'>
           <div className='textbtn'><p id='popText'></p>
          <button onClick={close} className='closeButtonStyle'>close</button>
